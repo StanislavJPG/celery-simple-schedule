@@ -1,6 +1,6 @@
 [project]
 name = "celery-simple-schedule"
-version = "0.1.0"
+version = "0.2.0"
 description = "A lightweight Python utility that simplifies defining Celery Beat schedules using a clean, declarative function-based API."
 authors = [
     {name = "StanislavJPG",email = "samper.stas@gmail.com"}
