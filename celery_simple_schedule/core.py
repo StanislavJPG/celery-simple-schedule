@@ -24,9 +24,13 @@ def simplify_schedules(func):
         args = [with_args(*arg, args=arg[-1]) if len(arg) == 3 else arg for arg in args]
 
         return {
-            a.split('.')[-1]: {
+            a.split(".")[-1]: {
                 k: v
-                for k, v in {'task': a, 'schedule': b, 'args': b[1] if isinstance(b, tuple) else None}.items()
+                for k, v in {
+                    "task": a,
+                    "schedule": b,
+                    "args": b[1] if isinstance(b, tuple) else None,
+                }.items()
                 if v is not None
             }
             for a, b in args
