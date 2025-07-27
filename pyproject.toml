@@ -1,6 +1,6 @@
 [project]
 name = "celery-simple-schedule"
-version = "0.2.0"
+version = "0.2.1"
 description = "A lightweight Python utility that simplifies defining Celery Beat schedules using a clean, declarative function-based API."
 authors = [
     {name = "StanislavJPG",email = "samper.stas@gmail.com"}
@@ -8,8 +8,16 @@ authors = [
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = []
+license = {text = "MIT"}
 
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.format]
+quote-style = "single"
