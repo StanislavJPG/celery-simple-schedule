@@ -1,5 +1,6 @@
 celery-simple-schedule
 =====
+[![PyPI Downloads](https://static.pepy.tech/badge/celery-simple-schedule)](https://pepy.tech/projects/celery-simple-schedule)
 
 A lightweight Python utility that simplifies defining Celery Beat schedules using a clean, declarative function-based API.
 
